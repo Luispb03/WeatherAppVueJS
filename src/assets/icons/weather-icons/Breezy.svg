@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 39" width="500" height="271">
+	<title>weather-icons</title>
+	<defs>
+		<linearGradient id="g1" x1="19.5" y1="36" x2="53.5" y2="2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#00ccff"/>
+			<stop offset="1" stop-color="#5ddefe"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<g id="icons">
+		<g id="Breezy">
+			<path id="breezy" class="s0" d="m53.3 36c-2.8 0-5.1-2.3-5.1-5.1q0-1.1 0.4-2h-29.3c-0.9 0-1.6-0.7-1.6-1.5 0-0.9 0.7-1.6 1.6-1.6h33.9q0 0 0 0 0 0 0.1 0c2.8 0 5.1 2.3 5.1 5.1 0 2.8-2.3 5.1-5.1 5.1zm10.6-8.8c-2.9 0-5.2-2.3-5.2-5.1q0.1-1 0.4-1.9h-53.6c-0.8 0-1.5-0.7-1.5-1.6 0-0.9 0.7-1.6 1.5-1.6h58.2q0.1 0 0.1 0 0 0 0.1 0c2.8 0 5.1 2.3 5.1 5.1 0 2.8-2.3 5.1-5.1 5.1zm-10.6-25.2c-2.8 0-5.1 2.2-5.1 5q0 1.1 0.4 2h-18.7c-0.9 0-1.6 0.7-1.6 1.6 0 0.8 0.7 1.5 1.6 1.5h23.3q0 0 0 0 0 0 0.1 0c2.8 0 5.1-2.2 5.1-5.1 0-2.8-2.3-5-5.1-5z"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 66" width="500" height="471">
+	<title>weather-icons</title>
+	<defs>
+		<linearGradient id="g1" x1="23.4" y1="64.8" x2="40.4" y2="47.9" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d6f2fd"/>
+			<stop offset="1" stop-color="#e5f5fd"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="39.5" y1="39" x2="62.5" y2="16" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d6f2fd"/>
+			<stop offset="1" stop-color="#e5f5fd"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: #ffffff } 
+		.s2 { fill: url(#g2) } 
+	</style>
+	<g id="icons">
+		<g id="Hail">
+			<path id="hail" class="s0" d="m22.7 52.8c0 2.7-2.2 4.9-4.9 4.9-2.7 0-4.9-2.2-4.9-4.9 0-2.7 2.2-4.9 4.9-4.9 2.7 0 4.9 2.2 4.9 4.9zm28.2 0c0 2.7-2.2 4.9-4.9 4.9-2.7 0-4.9-2.2-4.9-4.9 0-2.7 2.2-4.9 4.9-4.9 2.7 0 4.9 2.2 4.9 4.9zm-13.6 7.1c0 2.7-2.2 4.9-4.9 4.9-2.7 0-4.9-2.2-4.9-4.9 0-2.7 2.2-4.9 4.9-4.9 2.7 0 4.9 2.2 4.9 4.9z"/>
+			<path id="cloud-large" class="s1" d="m48.2 39c6 0 10.8-4.8 10.8-10.6 0-5.8-4.8-10.5-10.8-10.5q0 0-0.1 0c-0.9-8.4-8.2-15-17-15-6.9 0-12.9 4.1-15.6 10q-0.1 0-0.2 0c-7.4 0-13.3 5.8-13.3 13 0 7.2 5.9 13.1 13.3 13.1"/>
+			<path id="cloud-small-dark" class="s2" d="m62.2 39c3.7 0 6.8-3 6.8-6.7 0-3.8-3.1-6.8-6.8-6.8q-0.1 0-0.1 0c-0.6-5.3-5.2-9.5-10.7-9.5-4.4 0-8.2 2.6-9.9 6.3q-0.1 0-0.1 0c-4.7 0-8.4 3.8-8.4 8.4 0 4.6 3.7 8.3 8.4 8.3"/>
+		</g>
+	</g>
+</svg>
