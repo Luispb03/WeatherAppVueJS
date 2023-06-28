@@ -1,7 +1,7 @@
 <template>
-  <main class="w-[1200px] h-[900px] bg-white rounded-[32px] shadow-lg flex [&>div]:p-8 overflow-hidden">
+  <main class="xl:w-[1200px] xl:h-[900px] w-[900px] bg-white rounded-[32px] shadow-lg flex [&>div]:p-8 overflow-hidden">
     <div class="sidebar-day w-1/3">
-      <div class="[&>svg]:fill-blue-300 ">
+      <div>
         <div class="flex gap-2 relative">
           <img src="@/assets/icons/general/search.svg" class="absolute h-6 left-2 top-1/2 -translate-y-2/4" />
           <input type="text" name="searchbar" id="searchbar" placeholder="Search for places..." class="rounded-full pl-8 pr-4 w-full focus:outline-none "/>
@@ -28,7 +28,22 @@
       </ul>
       <p class="text-white text-2xl font-medium items-center justify-center mt-8">New York, NY, USA</p>
     </div>
-    <div class="bg-[#f6f6f8] w-2/3">div2</div>
+    <div class="bg-[#f6f6f8] w-2/3">
+      <nav class="flex justify-between font-medium">
+        <div class="flex gap-4">
+          <a href="">Today</a>
+          <a href="">Week</a>
+        </div>
+        <div class="flex gap-2 items-center ">
+          <p>°C</p>
+          <label for="temp-unit" class="bg-gray-400  w-12 h-7 rounded-full inline-block relative ">
+            <input type="checkbox" id="temp-unit" class="appearance-none">
+            <span class="inline-block w-5 h-5 bg-white rounded-full absolute top-1/2 -translate-y-2/4 mx-1 translate-x-0 transition-transform duration-500" ></span>
+          </label>
+          <p>°F</p>
+        </div>
+      </nav>
+    </div>
   </main>
 </template>
 
@@ -48,5 +63,9 @@ export default {
 }
 .sidebar-night{
   @apply bg-gradient-to-b from-indigo-900 to-sky-600;
+}
+
+input[type=checkbox]:checked ~ span {
+  @apply translate-x-full;
 }
 </style>
